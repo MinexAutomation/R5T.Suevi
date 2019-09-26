@@ -1,0 +1,2 @@
+# R5T.Suevi
+A NuGet packaged library containing a critique of the System.IO.Path functionality.
