@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Suevi.Construction", "R5T.Suevi.Construction\R5T.Suevi.Construction.csproj", "{56611C4D-4300-463A-89A9-5E742D38BDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Suevi.Construction", "R5T.Suevi.Construction\R5T.Suevi.Construction.csproj", "{56611C4D-4300-463A-89A9-5E742D38BDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Suevi", "R5T.Suevi\R5T.Suevi.csproj", "{08E24A8E-227D-48B6-9253-1E9864E6D773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Suevi", "R5T.Suevi\R5T.Suevi.csproj", "{08E24A8E-227D-48B6-9253-1E9864E6D773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Suevi.Testing", "R5T.Suevi.Testing\R5T.Suevi.Testing.csproj", "{8DA2FA40-736B-4446-85C3-1F771A713379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Suevi.Testing", "R5T.Suevi.Testing\R5T.Suevi.Testing.csproj", "{8DA2FA40-736B-4446-85C3-1F771A713379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{CB380503-45AD-4122-A78F-24AB79CEB45E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Salamis", "..\..\R5T.Salamis\source\R5T.Salamis\R5T.Salamis.csproj", "{8AEF78F8-537C-4805-8EB9-217C48DF0E11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{56611C4D-4300-463A-89A9-5E742D38BDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{8DA2FA40-736B-4446-85C3-1F771A713379}.Release|x64.Build.0 = Release|Any CPU
 		{8DA2FA40-736B-4446-85C3-1F771A713379}.Release|x86.ActiveCfg = Release|Any CPU
 		{8DA2FA40-736B-4446-85C3-1F771A713379}.Release|x86.Build.0 = Release|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Debug|x64.Build.0 = Debug|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Debug|x86.Build.0 = Debug|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Release|x64.ActiveCfg = Release|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Release|x64.Build.0 = Release|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Release|x86.ActiveCfg = Release|Any CPU
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AEF78F8-537C-4805-8EB9-217C48DF0E11} = {CB380503-45AD-4122-A78F-24AB79CEB45E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFB6A41A-50DB-488E-80ED-E76D43E6318E}
 	EndGlobalSection
 EndGlobal

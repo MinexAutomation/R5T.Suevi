@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Salamis\source\R5T.Salamis\R5T.Salamis.csproj" />
     <ProjectReference Include="..\R5T.Suevi\R5T.Suevi.csproj" />
   </ItemGroup>
 
