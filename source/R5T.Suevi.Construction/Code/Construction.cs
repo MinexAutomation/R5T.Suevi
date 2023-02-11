@@ -20,8 +20,8 @@ namespace R5T.Suevi.Construction
         /// </summary>
         private static void TryDoubleDirectorySeparators()
         {
-            var pathPart1 = ExampleDirectoryPaths.WindowsDirectoryPath1;
-            var pathPart2 = ExampleDirectoryNames.Directory1Name;
+            var pathPart1 = ExampleDirectoryPaths.WindowsDirectory01Path;
+            var pathPart2 = ExampleDirectoryNames.Directory01;
 
             var combinedPath = Path.Combine(pathPart1, pathPart2);
 
